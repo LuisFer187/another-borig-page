@@ -1,0 +1,49 @@
+body{
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 110%;
+  justify-content: center;
+}
+header .Menu {
+  display: flex;
+  justify-content:space-between;
+}
+
+header ul li{
+  list-style: none;
+  margin-right: 15px;
+}
+
+header ul{
+  display: flex;
+}
+
+header ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+.Menu{
+  max-width: 1280px;
+  width: 90%;
+  margin: auto;
+}
+
+header{
+  background: linear-gradient(90deg, #e085c2, #ff3333);
+  height: 100vh;
+}
+
+header h1{
+  color: white;
+}
+.Content{
+  align-items: center;
+}
+
+#input{
+  background-color: none;
+  color: black;
+  border: none;
+  line-height:0;
+}
